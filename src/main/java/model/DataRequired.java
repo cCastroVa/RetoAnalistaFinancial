@@ -4,9 +4,9 @@ public class DataRequired {
     private String first_name;
     private String last_name;
     private String email_address;
-    /*private String month_bird;
+    private String month_bird;
     private String day_bird;
-    private String year_bird;*/
+    private String year_bird;
     private String language;
     private String city;
     private String postal_code;
@@ -42,7 +42,7 @@ public class DataRequired {
         this.email_address = email_address;
     }
 
-    /*public String getMonth_bird() {
+    public String getMonth_bird() {
         return month_bird;
     }
     public void setMonth_bird(String month_bird) {
@@ -61,7 +61,7 @@ public class DataRequired {
     }
     public void setYear_bird(String year_bird) {
         this.year_bird = year_bird;
-    }*/
+    }
 
     public String getLanguage() {
         return language;

@@ -31,7 +31,8 @@ public class UtestStepDefinition {
     public void heEntersTheDataRequiredInTheFourRegistrationSteps(List<DataRequired>requiredList) {
         OnStage.theActorInTheSpotlight().attemptsTo(Enters.theData(requiredList.get(0).getFirst_name(),
                         requiredList.get(0).getLast_name(), requiredList.get(0).getEmail_address(), requiredList.get(0)
-                                .getLanguage()), (EntersTwo.theData(requiredList.get(0).getCity(), requiredList.get(0)
+                        .getMonth_bird(), requiredList.get(0).getDay_bird(), requiredList.get(0).getYear_bird(),
+                requiredList.get(0).getLanguage()), (EntersTwo.theData(requiredList.get(0).getCity(), requiredList.get(0)
                         .getPostal_code(), requiredList.get(0).getCountry())),
                 (EntersThree.theData(requiredList.get(0).getComputer(), requiredList.get(0).getVersion(),requiredList
                         .get(0).getLanguage_computer(), requiredList.get(0).getMobile_device(), requiredList.get(0)

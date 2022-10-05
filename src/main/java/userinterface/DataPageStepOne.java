@@ -12,11 +12,11 @@ public class DataPageStepOne extends PageObject {
     public static final Target INPUT_EMAIL_ADDRESS = Target.the("Where we write the email address")
             .located(By.xpath("//*[@id=\"email\"]"));
     public static final Target MONTH_BIRTH = Target.the("Click on the month of date birth")
-            .located(By.xpath("//*[@id='birthMonth']//option[contains(text(),'December')]"));
+            .located(By.xpath("//*[@id=\"birthMonth\"]"));
     public static final Target DAY_BIRTH = Target.the("Click on the day of date birth")
-            .located(By.xpath("//*[@id='birthDay']//option[contains(text(),'3')]"));
+            .located(By.xpath("//*[@id=\"birthDay\"]"));
     public static final Target YEAR_BIRTH = Target.the("Click on the year of date birth")
-            .located(By.xpath("//*[@id='birthYear']//option[contains(text(),'1997')]"));
+            .located(By.xpath("//*[@id=\"birthYear\"]"));
     public static final Target INPUT_LANGUAGE = Target.the("Where we write the native language")
             .located(By.xpath("//*[@id=\"languages\"]/div[1]/input"));
     public static final Target BUTTON_NEXT = Target.the("Click on the button for the steps next")

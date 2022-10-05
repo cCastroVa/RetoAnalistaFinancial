@@ -92,7 +92,7 @@
 
 1 Scenarios (?[31m1 failed?[0m)
 5 Steps (?[31m1 failed?[0m, ?[36m2 skipped?[0m, ?[32m2 passed?[0m)
-0m32,361s
+0m20,394s
 
 org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
@@ -100,9 +100,9 @@ from unknown error: web view not found
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'CHMEPPF0FQ31E', ip: '192.168.1.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.19 (b9c217c128c1..., userDataDir: C:\Users\CCASTR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 55a3ef18d894e31dafb4000f5a54808e
-*** Element info: {Using=xpath, value=//*[@id=&quot;web-device&quot;]/div[2]/div[2]/div/div[1]/span/span[1]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.19 (b9c217c128c1..., userDataDir: C:\Users\CCASTR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57196}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8796faa855f33fdaeb64b3fc9fff5559
+*** Element info: {Using=xpath, value=//*[@id=&quot;city&quot;]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -120,14 +120,9 @@ Session ID: 55a3ef18d894e31dafb4000f5a54808e
 	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:222)
 	at net.serenitybdd.core.pages.WebElementResolverByLocator.resolveForDriver(WebElementResolverByLocator.java:18)
 	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:221)
-	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:63)
-	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:55)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:1146)
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:954)
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1229)
-	at net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
-	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$wYWUPp61.performAs$accessor$gcxpWgvx(Unknown Source)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.sendKeys(WebElementFacadeImpl.java:1293)
+	at net.serenitybdd.screenplay.actions.HitTarget.performAs(HitTarget.java:23)
+	at net.serenitybdd.screenplay.actions.HitTarget$ByteBuddy$7bN0FGU5.performAs$accessor$uTTbcqrG(Unknown Source)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -138,12 +133,12 @@ Session ID: 55a3ef18d894e31dafb4000f5a54808e
 	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
-	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$wYWUPp61.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.actions.HitTarget$ByteBuddy$7bN0FGU5.performAs(Unknown Source)
 	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
 	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
 	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
-	at tasks.EntersThree.performAs(EntersThree.java:19)
-	at tasks.EntersThree$ByteBuddy$eHErBUz4.performAs$accessor$ByKj38SG(Unknown Source)
+	at tasks.EntersTwo.performAs(EntersTwo.java:30)
+	at tasks.EntersTwo$ByteBuddy$I6LcyVGs.performAs$accessor$QH07QHda(Unknown Source)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -154,7 +149,7 @@ Session ID: 55a3ef18d894e31dafb4000f5a54808e
 	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
-	at tasks.EntersThree$ByteBuddy$eHErBUz4.performAs(Unknown Source)
+	at tasks.EntersTwo$ByteBuddy$I6LcyVGs.performAs(Unknown Source)
 	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
 	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
 	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
@@ -208,7 +203,7 @@ TEST STARTED: Register on the Utest.com page
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.4</a> at 5/10/2022 02:17:17 PM</p>
+<a href="http://www.gradle.org">Gradle 7.4</a> at 5/10/2022 02:52:51 PM</p>
 </div>
 </div>
 </body>
