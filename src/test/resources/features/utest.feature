@@ -8,7 +8,7 @@ Feature: Join the community of testers.
     When he clicks Join Today on the Utest page
     And he enters the data required in the first registration step
       | first_name | last_name | email_address     | month_bird | day_bird | year_bird | language |
-      | Carlos     | Castro    | castro@correochouc.com | December   | 3        | 1997      | Spanish  |
+      | Carlos     | Castro    | ccastrova@testing.com | December   | 3        | 1997      | Spanish  |
     And he enters the data required in the second registration step
       | city            | postal_code | country |
       |Bello, Antioquia | 050044      | Colombia|

@@ -6,11 +6,11 @@ import org.openqa.selenium.By;
 
 public class DataPageStepOne extends PageObject {
     public static final Target INPUT_FIRST_NAME = Target.the("Where we write the first name")
-            .located(By.xpath("//*[@id=\"firstName\"]"));
+            .located(By.id("firstName"));
     public static final Target INPUT_LAST_NAME = Target.the("Where we write the last name")
-            .located(By.xpath("//*[@id=\"lastName\"]"));
+            .located(By.name("lastName"));
     public static final Target INPUT_EMAIL_ADDRESS = Target.the("Where we write the email address")
-            .located(By.xpath("//*[@id=\"email\"]"));
+            .located(By.xpath("//input[@id='email']"));
     public static final Target MONTH_BIRTH = Target.the("Click on the month of date birth")
             .located(By.xpath("//*[@id=\"birthMonth\"]"));
     public static final Target DAY_BIRTH = Target.the("Click on the day of date birth")
