@@ -1,0 +1,300 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="54419d6418cc5018c9f416b2160c0c4439c8f91c52ac2ed9841a30bad060f800.html">Join The Community Of Testers.</a></span>
+                > <span class="truncate-60"><a
+                    href="11bf86b4eab7e6f457fc03879c4f41a106c59d1ab93321333e5844f249c471c6.html">Register on the page </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-10-2022 16:49</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Join The Community Of Testers. </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user,I want to join to the world's largest community of testers on the Utes.com page
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="b5dd4e30f23b2f9f29feb49714ddfe5150a2b096f053c902433cc65a5a0ce361.html">Case
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Register on the page
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="3ed94d937322d39bcd05c29bd86fa33c6d79b3e2ba9dbdc6b353aa4c8d295f44.png" title=" Given than Carlos is on the Utest page" width="1366"/>
+                <img src="3ed94d937322d39bcd05c29bd86fa33c6d79b3e2ba9dbdc6b353aa4c8d295f44.png" title=" Carlos open up" width="1366"/>
+                <img src="3ed94d937322d39bcd05c29bd86fa33c6d79b3e2ba9dbdc6b353aa4c8d295f44.png" title=" Carlos opens the Utest page" width="1366"/>
+                <img src="f887690825b31073aeb2bbbfadeca640b5f057161049c0cd1d240613ad47a75f.png" title=" Carlos open up (completed)" width="1366"/>
+                <img src="f887690825b31073aeb2bbbfadeca640b5f057161049c0cd1d240613ad47a75f.png" title=" Given than Carlos is on the Utest page (completed)" width="1366"/>
+                <img src="69d41d3dc4fa5c128b7f874b509f4077809a9375c9d97f64f0534facae94f93e.png" title=" When he clicks Join Today on the Utest page" width="1366"/>
+                <img src="69d41d3dc4fa5c128b7f874b509f4077809a9375c9d97f64f0534facae94f93e.png" title=" Carlos join today" width="1366"/>
+                <img src="69d41d3dc4fa5c128b7f874b509f4077809a9375c9d97f64f0534facae94f93e.png" title=" Carlos clicks on Click in the button Join Today" width="1366"/>
+                <img src="69d41d3dc4fa5c128b7f874b509f4077809a9375c9d97f64f0534facae94f93e.png" title=" Carlos join today (completed)" width="1366"/>
+                <img src="69d41d3dc4fa5c128b7f874b509f4077809a9375c9d97f64f0534facae94f93e.png" title=" When he clicks Join Today on the Utest page (completed)" width="1366"/>
+                <img src="7d1f61c52936545efa4b3c469de0ed4e3647d45115b1a8bf904e34b397999f6e.png" title=" And he enters the data required in the first registration step
+| first_name | last_name | email_address | month_bird | day_bird | year_bird | language |
+| Carlos | Castro | ccastrova@ting.com | December | 3 | 1997 | Spanish |" width="1366"/>
+                <img src="7d1f61c52936545efa4b3c469de0ed4e3647d45115b1a8bf904e34b397999f6e.png" title=" Carlos enters" width="1366"/>
+                <img src="7d1f61c52936545efa4b3c469de0ed4e3647d45115b1a8bf904e34b397999f6e.png" title=" Carlos enters 'Carlos' into Where we write the first name" width="1366"/>
+                <img src="d6faa38ff00f446bac2e7ec96a18aef955ffc100ec0cb243babc6b37b6e52673.png" title=" Carlos enters 'Castro' into Where we write the last name" width="1366"/>
+                <img src="47d15e1f8056f582ca7d58316f6d0e12229c5d1b25bb1551401a1000c0c122d9.png" title=" Carlos enters 'ccastrova@ting.com' into Where we write the email address" width="1366"/>
+                <img src="d41ffc2bf7a9e1e10596bd2c92bdc4d71874c00b28cc80cd1fbefad0ff9c0400.png" title=" Carlos select December on Click on the month of date birth" width="1366"/>
+                <img src="1adcde6de6e5510e7d3606f2877abefaafdd8365b4a9594318f789692a1322fa.png" title=" Carlos select 3 on Click on the day of date birth" width="1366"/>
+                <img src="057164c3ba22a414b208608ae249c6f37abc56bd126d6357b6883b6c2b71e64a.png" title=" Carlos select 1997 on Click on the year of date birth" width="1366"/>
+                <img src="91ea0637de8beb09cc7272822ddb2f8bbd33fe1fa6614ea3f8fe97ac035e8682.png" title=" Carlos enters 'Spanish' into Where we write the native language" width="1366"/>
+                <img src="d6de6f74301ca0ce0cabf5635bf609339d33fd9a02b747a375253167645acd9d.png" title=" Carlos types 'ENTER' in Where we write the native language" width="1366"/>
+                <img src="e9dd7f16211adaf69eb638976e5d75e433bea94e9559496fbd7cdf3a7bae22dc.png" title=" Carlos clicks on Click on the button for the steps next" width="1366"/>
+                <img src="e9dd7f16211adaf69eb638976e5d75e433bea94e9559496fbd7cdf3a7bae22dc.png" title=" Carlos enters (completed)" width="1366"/>
+                <img src="e9dd7f16211adaf69eb638976e5d75e433bea94e9559496fbd7cdf3a7bae22dc.png" title=" And he enters the data required in the first registration step
+| first_name | last_name | email_address | month_bird | day_bird | year_bird | language |
+| Carlos | Castro | ccastrova@ting.com | December | 3 | 1997 | Spanish | (completed)" width="1366"/>
+                <img src="3e0c9e1cb0f1c574fd53f5d0b129f0f32db56d1889a303a37952ee6d1f683b33.png" title=" And he enters the data required in the second registration step
+| city | postal_code | country |
+| Bello, Antioquia | 050044 | Colombia |" width="1366"/>
+                <img src="3e0c9e1cb0f1c574fd53f5d0b129f0f32db56d1889a303a37952ee6d1f683b33.png" title=" Carlos enters two" width="1366"/>
+                <img src="3e0c9e1cb0f1c574fd53f5d0b129f0f32db56d1889a303a37952ee6d1f683b33.png" title=" Carlos clicks on Where we write the city" width="1366"/>
+                <img src="549c4dcd773d5b5d3f1637ad0f59d1ba8fa53311c0ff7b883ccee462e9c88e81.png" title=" Carlos clears field Where we write the city" width="1366"/>
+                <img src="3c8232125d8fcd4ee1d43e38e8db90788c0aa5770befa9b10a34e9418e263e5e.png" title=" Carlos enters 'Bello, Antioquia' into Where we write the city" width="1366"/>
+                <img src="06062e9905aea54be2126c2ed05d8352a6059f848f78a253ae9ec42b727b0b1e.png" title=" Carlos types 'DOWN' in Where we write the city" width="1366"/>
+                <img src="ed946d2135e65f20c845af2bab1b23b42e35ffc1fcb7f050a75753a7001fb88c.png" title=" Carlos types 'ENTER' in Where we write the city" width="1366"/>
+                <img src="2d8a5dc3665267b1938f55f2143aa874c11e4d4dc026c50ddebae640b640cb21.png" title=" Carlos enters '050044' into Where we write the code postal" width="1366"/>
+                <img src="1d86f5c3070c8ae9b3c15bb93f2cb55066a7f4990e5de6c8c41fc6d86f9a8588.png" title=" Carlos clicks on Where we write the country" width="1366"/>
+                <img src="a96cf0fa05cf1cafca131561b905a6e8118b7eb76f249cb85caf3e8ddbd4965c.png" title=" Carlos enters 'Colombia' into Where we write the country" width="1366"/>
+                <img src="17226ce899532bafe711089a2e33a50b1001aae4e01f8839183df6085cff4883.png" title=" Carlos types 'ENTER' in Where we write the country" width="1366"/>
+                <img src="27a6bf58ffadf376b53c425dd099aa904d09da14bb12d138f25d7d974a8e8425.png" title=" Carlos clicks on Click on the button for the steps next" width="1366"/>
+                <img src="27a6bf58ffadf376b53c425dd099aa904d09da14bb12d138f25d7d974a8e8425.png" title=" Carlos enters two (completed)" width="1366"/>
+                <img src="27a6bf58ffadf376b53c425dd099aa904d09da14bb12d138f25d7d974a8e8425.png" title=" And he enters the data required in the second registration step
+| city | postal_code | country |
+| Bello, Antioquia | 050044 | Colombia | (completed)" width="1366"/>
+                <img src="1e796f528ff66aa2a5f4b67f94a3bc59ec1b0d1b5348ce0d5ca8d9c0f34aaced.png" title=" And he enters the data required in the third registration step
+| computer | version | language_computer | mobile_device | model | operating_system |
+| Windows | Windows 10 Education | Spanish | Motorola | Moto G9 Plus | Android 10 |" width="1366"/>
+                <img src="1e796f528ff66aa2a5f4b67f94a3bc59ec1b0d1b5348ce0d5ca8d9c0f34aaced.png" title=" Carlos enters three" width="1366"/>
+                <img src="1e796f528ff66aa2a5f4b67f94a3bc59ec1b0d1b5348ce0d5ca8d9c0f34aaced.png" title=" Carlos clicks on Click on the operating system of the computer" width="1366"/>
+                <img src="73a270a0b86dc7cb69fac5b94d18ab8a570d68a44f1cd88e2e544d75b58879ab.png" title=" Carlos enters 'Windows' into write the operating system of the computer" width="1366"/>
+                <img src="8c881c30b31b1f7737350022b5ec65765fd5957e5b2fb8809bc31445c7839383.png" title=" Carlos types 'ENTER' in write the operating system of the computer" width="1366"/>
+                <img src="fcc63b6d0661733431d7bacb018d54df104807209f4637a76ffbd5fb724df851.png" title=" Carlos clicks on Click on the version operating system of the computer" width="1366"/>
+                <img src="2442d89768e57a01d44e0ac9100e9543764184a1486049f70154e97930c08fd2.png" title=" Carlos enters 'Windows 10 Education' into write the version operating system of the computer" width="1366"/>
+                <img src="3099fb31f3ed4b15299c35dfc5a57f5ec987172e69024a91fa4bf85263fb5fad.png" title=" Carlos types 'ENTER' in write the version operating system of the computer" width="1366"/>
+                <img src="4c33bceca07d8efa1a43bde157803f80d124551b715605c4dc80a47cf5666b83.png" title=" Carlos clicks on Click on the language operating system of the computer" width="1366"/>
+                <img src="54633a128f75e512fd002af9ac815e2c54b9adfb98edfa623d7a08fe7d728454.png" title=" Carlos enters 'Spanish' into write the language operating system of the computer" width="1366"/>
+                <img src="363507f85610adb4d08bf248dba7c502db7e38777bd61c2861ee66c614c1cea3.png" title=" Carlos types 'ENTER' in write the language operating system of the computer" width="1366"/>
+                <img src="130eb47c0eaaebe46591ae9cc5d80f13d68deb0d5c4860f59c8dbd0a58bcd40c.png" title=" Carlos clicks on Click on the name of your mobile device" width="1366"/>
+                <img src="dd67fbfc9f1b27a9793d22d89834ec5844546c2b8024757c4c05abb7ab88bab5.png" title=" Carlos enters 'Motorola' into write the name of your mobile device" width="1366"/>
+                <img src="c203143e34c32e9e2be4c18f69be4862c66186727c3265c56b8a684b47daebbb.png" title=" Carlos types 'ENTER' in write the name of your mobile device" width="1366"/>
+                <img src="3f57742053b659582a62d3743a6e7eaa7c9d791f8a7c4954d70951ab98076dd0.png" title=" Carlos clicks on Click on the model of your mobile device" width="1366"/>
+                <img src="d0bea95bc04db4dc248e1860fa4830094a6ceb463e5971aae558f58b7ff13a75.png" title=" Carlos enters 'Moto G9 Plus' into write the model of your mobile device" width="1366"/>
+                <img src="a0e09dcc3fedd59d45333ba561650f241444e7d6ecfd957d72b35d671469e30d.png" title=" Carlos types 'ENTER' in write the model of your mobile device" width="1366"/>
+                <img src="ba0170af226568a53df3f18ef50f955c4ecbdef55bf453f1049f116cba640ba5.png" title=" Carlos clicks on Click on the operating system of the mobile device" width="1366"/>
+                <img src="0dddc453743c31774385c5e20972317be661a851e29a6875ec80bb3f2d411111.png" title=" Carlos enters 'Android 10' into write the operating system of the mobile device" width="1366"/>
+                <img src="7b432c2cc69c5614a3a6918accf5a3a2f4434e8affc6023378be1fd518b301fd.png" title=" Carlos types 'ENTER' in write the operating system of the mobile device" width="1366"/>
+                <img src="2453a31453b30b7127f1e0c12139e3a461e1fdbddd559eabfe05e20a007cd115.png" title=" Carlos clicks on Click on the button for the steps next" width="1366"/>
+                <img src="2453a31453b30b7127f1e0c12139e3a461e1fdbddd559eabfe05e20a007cd115.png" title=" Carlos enters three (completed)" width="1366"/>
+                <img src="2453a31453b30b7127f1e0c12139e3a461e1fdbddd559eabfe05e20a007cd115.png" title=" And he enters the data required in the third registration step
+| computer | version | language_computer | mobile_device | model | operating_system |
+| Windows | Windows 10 Education | Spanish | Motorola | Moto G9 Plus | Android 10 | (completed)" width="1366"/>
+                <img src="36a326be9fa21a89570cb0d7ca582fc7987609ab05f7e9a9be549c57c5eef8fa.png" title=" And he enters the data required in the fourth registration step
+| password | repeat_password |
+| Asdfghjkl123*a | Asdfghjkl123*a |" width="1366"/>
+                <img src="36a326be9fa21a89570cb0d7ca582fc7987609ab05f7e9a9be549c57c5eef8fa.png" title=" Carlos enters four" width="1366"/>
+                <img src="36a326be9fa21a89570cb0d7ca582fc7987609ab05f7e9a9be549c57c5eef8fa.png" title=" Carlos enters 'Asdfghjkl123*a' into Where we create the password" width="1366"/>
+                <img src="2a3db3fbfc3bd002d0c6f3877fa3e6e027032e711776bf9c707e9726b0fbf931.png" title=" Carlos enters 'Asdfghjkl123*a' into Where we repeat the password" width="1366"/>
+                <img src="2a3db3fbfc3bd002d0c6f3877fa3e6e027032e711776bf9c707e9726b0fbf931.png" title=" Carlos enters four (completed)" width="1366"/>
+                <img src="2a3db3fbfc3bd002d0c6f3877fa3e6e027032e711776bf9c707e9726b0fbf931.png" title=" And he enters the data required in the fourth registration step
+| password | repeat_password |
+| Asdfghjkl123*a | Asdfghjkl123*a | (completed)" width="1366"/>
+                <img src="d50ab454720f4b87b66936412682af7146fcd9749d3fb98adf39f1dfc696869e.png" title=" And he accept the terms of use, the guidelines and the privacy and security policy of utest" width="1366"/>
+                <img src="d50ab454720f4b87b66936412682af7146fcd9749d3fb98adf39f1dfc696869e.png" title=" Carlos accept" width="1366"/>
+                <img src="d50ab454720f4b87b66936412682af7146fcd9749d3fb98adf39f1dfc696869e.png" title=" Carlos clicks on Where we accept the terms of use and the guidelines of Utest" width="1366"/>
+                <img src="a52fc2eabf4d50c4d98b3743f255714b96719fc8d9a4a75997ecbcff165bc1c9.png" title=" Carlos clicks on Where we accept the policy of privacy and security of Utest" width="1366"/>
+                <img src="b86d551addb30d2ad2094665ec7875049a28e8de83a849af7df7e9d5e8ed38dc.png" title=" Carlos clicks on Click on the button to finish" width="1366"/>
+                <img src="b86d551addb30d2ad2094665ec7875049a28e8de83a849af7df7e9d5e8ed38dc.png" title=" Carlos accept (completed)" width="1366"/>
+                <img src="b86d551addb30d2ad2094665ec7875049a28e8de83a849af7df7e9d5e8ed38dc.png" title=" And he accept the terms of use, the guidelines and the privacy and security policy of utest (completed)" width="1366"/>
+                <img src="c2141fa517c1d5d8b9bb2493e6e27ce0e3e76445b360e89939c474f1a6b8511c.png" title=" Then he registers successful on the Utest page seeing a message First, please check your email inbox" width="1366"/>
+                <img src="c2141fa517c1d5d8b9bb2493e6e27ce0e3e76445b360e89939c474f1a6b8511c.png" title=" Then answer" width="1366"/>
+                <img src="c2141fa517c1d5d8b9bb2493e6e27ce0e3e76445b360e89939c474f1a6b8511c.png" title=" Then he registers successful on the Utest page seeing a message First, please check your email inbox (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>

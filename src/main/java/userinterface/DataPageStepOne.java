@@ -10,15 +10,15 @@ public class DataPageStepOne extends PageObject {
     public static final Target INPUT_LAST_NAME = Target.the("Where we write the last name")
             .located(By.name("lastName"));
     public static final Target INPUT_EMAIL_ADDRESS = Target.the("Where we write the email address")
-            .located(By.xpath("//input[@id='email']"));
+            .located(By.id("email"));
     public static final Target MONTH_BIRTH = Target.the("Click on the month of date birth")
-            .located(By.xpath("//*[@id=\"birthMonth\"]"));
+            .located(By.name("birthMonth"));
     public static final Target DAY_BIRTH = Target.the("Click on the day of date birth")
-            .located(By.xpath("//*[@id=\"birthDay\"]"));
+            .located(By.id("birthDay"));
     public static final Target YEAR_BIRTH = Target.the("Click on the year of date birth")
-            .located(By.xpath("//*[@id=\"birthYear\"]"));
+            .located(By.name("birthYear"));
     public static final Target INPUT_LANGUAGE = Target.the("Where we write the native language")
-            .located(By.xpath("//*[@id=\"languages\"]/div[1]/input"));
+            .located(By.xpath("//input[@type='search']"));
     public static final Target BUTTON_NEXT = Target.the("Click on the button for the steps next")
-            .located(By.xpath("//*[@id=\"regs_container\"]/div/div[2]/div/div[2]/div/form/div[2]/a"));
+            .located(By.xpath("//a[@class='btn btn-blue']"));
 }
